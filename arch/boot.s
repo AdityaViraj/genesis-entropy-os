@@ -1,7 +1,7 @@
 section .multiboot
 align 4
-    dd 0x1BADB002       ; Magic number (Multiboot)
-    dd 0x00.            ; Flags
+    dd 0x1BADB002       ; Multiboot
+    dd 0x00           ; Flags
     dd -(0x1BADB002 + 0X00) ; Checksum
 
 section .text
@@ -20,9 +20,7 @@ start:
     jmp .hang  ; Loop forever if kernel_main returns
 
 section .bss
-align 64
+align 16
 stack_bottom:
-    resb 16384 ; 16KB of stack space
+    resb 16384 ; 16 KB
 stack_top:
-
-
