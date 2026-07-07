@@ -52,7 +52,7 @@ Please ensure you have the following tools installed on your computer :
 
 ```bash
 
-git clone https://github.com/AdityaViraj/entropy-compass-os
+git clone https://github.com/AdityaViraj/genesis-entropy-os
 cd genesis-entropy-os
 make clean && make
 qemu-system-x86_64 -kernel genesis.bin -display cocoa,zoom-to-fit=on
