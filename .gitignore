@@ -2,3 +2,4 @@ genesis.bin
 .DS_Store
 .vscode/
 *.o
+log.txt
