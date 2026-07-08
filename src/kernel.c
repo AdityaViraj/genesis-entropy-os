@@ -222,7 +222,7 @@ void kernel_main(void)
     pmm_init(16 * 1024 * 1024);
     idt_init();          
     remap_pic();         
-    init_timer(1000);    
+    init_timer(300000);    
 
     app_state = STATE_LANDING;
     render_landing();
