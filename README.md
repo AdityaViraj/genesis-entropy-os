@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/aa0116b7-8a28-42f4-b55f-a0641960b38a
+
 # Entropy Compass
 
 A simple baremetal operating system built entirely from scratch in C and Assembly.
