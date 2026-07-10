@@ -48,13 +48,28 @@ Please ensure you have the following tools installed on your computer :
 * `gcc` (specifically the `x86_64-elf` cross compiler)
 * `qemu-system-x86_64`
 
+IF YOU DON'T JUST FOLLOW THE BUILT AND RUN 
+
 ### Built and Run 
 
+# 1. Install Homebrew
 ```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
+# 2. Install the toolchain dependencies
+```bash
+brew install nasm qemu x86_64-elf-gcc
+```
+
+# 3. Clean clone of the repo and Compile
+```bash
 git clone https://github.com/AdityaViraj/genesis-entropy-os
 cd genesis-entropy-os
 make clean && make
-qemu-system-x86_64 -kernel genesis.bin -display cocoa,zoom-to-fit=on
+```
 
+# 5. Launch the game in QEMU
+```bash
+qemu-system-x86_64 -kernel genesis.bin -display cocoa,zoom-to-fit=on
 ```
