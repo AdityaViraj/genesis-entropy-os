@@ -40,16 +40,6 @@ A simple baremetal operating system built entirely from scratch in C and Assembl
 
 ---
 
-### Requirements 
-
-Please ensure you have the following tools installed on your computer :
-
-* `nasm`
-* `gcc` (specifically the `x86_64-elf` cross compiler)
-* `qemu-system-x86_64`
-
-## IF YOU DON'T JUST FOLLOW THE INSTRUCTIONS BELOW 
-
 ### Built and Run 
 
 ### 1. Install Homebrew
