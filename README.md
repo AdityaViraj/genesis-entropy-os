@@ -54,7 +54,6 @@ brew install nasm qemu x86_64-elf-gcc
 ### 2.Compile 
 
 **For Linux\\Windows**
-=======
 ```bash
 git clone https://github.com/AdityaViraj/genesis-entropy-os
 cd genesis-entropy-os
