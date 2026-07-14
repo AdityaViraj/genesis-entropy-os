@@ -1,9 +1,9 @@
 # Compiler and Flags
-CC = x86_64-elf-gcc
-LD = x86_64-elf-ld
+CC ?= gcc
+LD ?= ld
 AS = nasm
-CFLAGS = -m32 -ffreestanding -O2 -Wall -Wextra -fno-pie -c
-LDFLAGS = 
+CFLAGS = -m32 -ffreestanding -O2 -Wall -Wextra -fno-pie -fno-stack-protector -c
+LDFLAGS =
 # Files
 SOURCES = src/kernel.c
 OBJECTS = arch/boot.o src/kernel.o src/isr_wrapper.o src/idt.o src/keyboard.o src/io.o src/timer.o src/pmm.o src/pic.o src/panic.o 
