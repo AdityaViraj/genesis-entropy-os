@@ -26,7 +26,7 @@ And how we choose a random destination as we don't have rand() function? We use 
 
 ---
 
-## Requirements
+## REQUIREMENTS
 
 You need these three tools, regardless of OS:
 
@@ -38,7 +38,7 @@ The section below give copy and pasteable setup commands for macOS, Linux, and W
 
 ---
 
-## Built and Run
+## BUILT AND RUN
 
 ### macOS
 
